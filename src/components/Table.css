@@ -1,0 +1,126 @@
+/* Table.css */
+.table-container {
+  width: 100vw;
+  padding: 27px;
+}
+.tableUpper{
+    display: flex;
+   
+    align-items: center;
+    gap: 8px;
+
+}
+.tableUpper> .p1{
+   
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #000000;
+    
+}
+.tableUpper > .p2{
+   
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+   color: #999999;
+    
+}
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin-top: 20px;
+}
+.table-header th {
+  width: 48px;
+  height: 63px;
+  background-color: #f4f4f4;
+  color: #9c9c9c;
+  text-align: left;
+  vertical-align: middle;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.table-data td {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.table-data tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+.table-data tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.table-data td {
+  width: 48px;
+  height: 63px;
+  text-align: left;
+  vertical-align: middle;
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  color: #9c9c9c;
+}
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  /* Hide default checkbox */
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  /* Style the custom checkbox */
+  .checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    background-color: transparent;
+  }
+  
+  /* Style the checkmark when the checkbox is checked */
+  .checkbox-container input:checked + .checkmark {
+    background-color: rgba(21, 122, 254, 0.1);
+    border-color: #157AFE;
+  }
+  
+  /* Style the checkmark itself */
+  .checkbox-container .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #157AFE;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  /* Show the checkmark when the checkbox is checked */
+  .checkbox-container input:checked + .checkmark:after {
+    display: block;
+  }
+  
+

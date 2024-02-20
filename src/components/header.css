@@ -1,0 +1,90 @@
+.headerbody{
+    height:63px;
+    width: 100vw;
+    background-color: #F4F4F4;
+    display: flex;
+    align-items: center;
+    padding: 0px 27px;
+    justify-content: space-between;
+
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.header-left-container2{
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+}
+.header-left-container{
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    /* padding: 10px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+}
+.header-left-container > img{
+    margin-left: 10px;
+}
+
+.multi-select-container > .dropdown-container{
+    border-radius: 10px !important;
+    border: none !important;
+    padding: 2px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 180px;
+    background-color: #fff;
+    
+}
+.header-left-container2 > input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.header-left-container2 > input::placeholder{
+    
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #9C9C9C;
+
+
+
+}
+.header-left-container2 > select{
+    border: none;
+    outline: none;
+}
+.export-button{
+    height: 50px;
+    width: 213px;
+    border-radius: 50px;
+    background-color: #157AFE;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    
+
+
+
+}
+.export-button > p{
+    font-size: 18px;
+    font-weight: 400
+}
